@@ -1,0 +1,501 @@
+employee_id,age,gender,department,education,tenure_years,salary_usd,performance_rating,location,attrition_flag
+1001,59,Female,Hr,Associate,8.3,105821,Low,Carmel,No
+1002,49,Female,Hr,Doctorate,7.7,75991,Meets,Bloomington,Yes
+1003,35,Male,Sales,Master,7.2,117057,Exceeds,Carmel,No
+1004,63,Female,Customer Support,High School,12.5,151193,Meets,Bloomington,No
+1005,28,Male,It,Bachelor,9.1,44971,Meets,Fort Wayne,No
+1006,41,Male,Sales,Doctorate,16.7,67139,Meets,Fort Wayne,No
+1007,59,Non-Binary,Hr,High School,13.6,123445,Meets,Indianapolis,No
+1008,39,Female,Hr,Doctorate,1.9,115067,Meets,Fishers,No
+1009,43,Male,It,Doctorate,13.0,118257,Meets,Bloomington,No
+1010,31,Female,Operations,Bachelor,5.8,122742,Low,Indianapolis,No
+1011,31,Female,Finance,Master,12.1,75711,Exceeds,Fishers,No
+1012,44,Female,Hr,Associate,13.8,44530,Low,Bloomington,No
+1013,56,Male,Customer Support,Master,5.0,49116,Meets,Carmel,No
+1014,60,Male,Customer Support,Bachelor,9.4,103794,Low,Fishers,No
+1015,44,Female,Hr,Bachelor,4.2,38282,Meets,Fort Wayne,No
+1016,23,Female,Operations,Bachelor,1.5,117473,Meets,Indianapolis,Yes
+1017,42,Female,Operations,High School,7.9,39898,Meets,Fishers,No
+1018,22,Male,Sales,Master,7.6,42135,Low,Fishers,No
+1019,44,Female,Customer Support,Master,19.9,44629,Meets,Fort Wayne,No
+1020,64,Female,Sales,Doctorate,9.2,147472,Low,Bloomington,No
+1021,50,Male,Customer Support,Doctorate,7.0,123120,Meets,Carmel,Yes
+1022,58,Male,Finance,Doctorate,11.8,127087,Exceeds,Fort Wayne,No
+1023,22,Female,Finance,Bachelor,2.2,103031,Meets,Carmel,No
+1024,41,Female,It,Master,19.3,71380,Meets,Bloomington,No
+1025,53,Male,Sales,Bachelor,12.9,150507,Meets,Fishers,No
+1026,32,Male,Hr,High School,15.2,55071,Low,Carmel,Yes
+1027,42,Male,Sales,Doctorate,3.8,58074,Meets,Indianapolis,No
+1028,64,Male,Hr,Bachelor,8.5,128724,Meets,Indianapolis,Yes
+1029,45,Female,Operations,Bachelor,8.7,105843,Meets,Fort Wayne,No
+1030,47,Female,Sales,High School,16.5,77901,Low,Bloomington,No
+1031,62,Male,Operations,Associate,0.5,49205,Exceeds,Fort Wayne,No
+1032,48,Female,Finance,Master,6.4,93661,Meets,Fort Wayne,No
+1033,36,Female,Finance,Associate,19.6,43906,Exceeds,Fort Wayne,No
+1034,35,Female,It,Doctorate,9.8,40591,Meets,Indianapolis,No
+1035,64,Female,Sales,Bachelor,8.0,100987,Meets,Indianapolis,No
+1036,23,Male,Operations,High School,2.8,101370,Low,Fort Wayne,No
+1037,57,Male,Hr,High School,19.5,118685,Low,Indianapolis,No
+1038,27,Female,Finance,Master,0.9,148454,Exceeds,Bloomington,Yes
+1039,41,Female,Finance,Associate,14.9,143487,Meets,Fort Wayne,No
+1040,29,Male,Hr,Master,15.5,92400,Exceeds,Indianapolis,No
+1041,59,Female,Operations,Bachelor,5.3,63150,Meets,Carmel,No
+1042,38,Female,Operations,Master,13.6,69852,Low,Fort Wayne,No
+1043,24,Male,Sales,High School,2.3,80870,Low,Fort Wayne,No
+1044,45,Female,Sales,High School,5.5,90756,Meets,Bloomington,Yes
+1045,34,Non-Binary,Customer Support,Doctorate,15.9,153357,Exceeds,Fishers,No
+1046,29,Non-Binary,Customer Support,Doctorate,17.4,94481,Meets,Fishers,No
+1047,46,Male,It,Bachelor,12.4,39283,Meets,Bloomington,No
+1048,22,Female,Finance,Associate,10.4,71691,Meets,Bloomington,Yes
+1049,40,Female,Sales,Master,3.6,39125,Low,Bloomington,No
+1050,48,Female,Operations,Bachelor,1.7,105065,Meets,Fishers,No
+1051,27,Non-Binary,Hr,Doctorate,2.8,64170,Low,Bloomington,No
+1052,64,Female,Operations,Master,4.9,46438,Exceeds,Indianapolis,Yes
+1053,28,Female,Finance,Doctorate,7.2,58095,Meets,Fort Wayne,No
+1054,55,Female,Customer Support,Master,7.9,54154,Meets,Fort Wayne,No
+1055,34,Female,Operations,Associate,7.3,46004,Meets,Carmel,No
+1056,37,Male,It,Bachelor,5.2,47752,Meets,Carmel,No
+1057,56,Male,Finance,Master,10.4,93426,Exceeds,Fort Wayne,No
+1058,60,Male,Customer Support,High School,16.6,146896,Meets,Indianapolis,No
+1059,24,Female,Hr,High School,6.0,64819,Low,Fishers,Yes
+1060,22,Male,Customer Support,Master,18.9,140168,Meets,Fishers,No
+1061,26,Female,It,Master,17.5,130051,Low,Indianapolis,No
+1062,62,Male,Finance,Master,3.7,62217,Low,Fishers,No
+1063,24,Female,Hr,High School,15.8,126708,Exceeds,Bloomington,No
+1064,49,Female,It,High School,11.7,70994,Meets,Fort Wayne,No
+1065,38,Female,Customer Support,Master,11.5,53036,Exceeds,Fort Wayne,No
+1066,46,Male,It,Doctorate,8.1,115275,Meets,Indianapolis,No
+1067,64,Female,Finance,Doctorate,10.3,135756,Meets,Fishers,No
+1068,54,Female,Sales,Associate,8.2,87416,Low,Carmel,No
+1069,30,Male,It,Bachelor,11.0,47587,Meets,Carmel,No
+1070,56,Female,It,Doctorate,12.7,148053,Exceeds,Fishers,No
+1071,34,Female,Customer Support,High School,13.6,133665,Meets,Carmel,No
+1072,51,Male,Customer Support,Doctorate,10.9,38645,Exceeds,Indianapolis,No
+1073,35,Female,Hr,Associate,14.6,68930,Meets,Indianapolis,No
+1074,28,Male,Customer Support,Associate,3.3,119835,Low,Fishers,No
+1075,34,Male,Operations,Bachelor,4.6,68090,Meets,Carmel,No
+1076,43,Male,Finance,Doctorate,16.5,125489,Meets,Indianapolis,No
+1077,60,Male,Finance,High School,6.8,90142,Meets,Indianapolis,No
+1078,41,Male,Sales,High School,0.9,149979,Exceeds,Bloomington,No
+1079,36,Female,Sales,Master,3.5,64475,Meets,Bloomington,No
+1080,38,Female,Finance,High School,4.9,56888,Low,Indianapolis,No
+1081,44,Female,Sales,Bachelor,19.2,81732,Meets,Fishers,No
+1082,46,Female,Hr,Bachelor,11.7,119623,Exceeds,Fort Wayne,No
+1083,45,Female,Customer Support,High School,18.7,84305,Low,Fort Wayne,No
+1084,61,Female,Finance,High School,11.7,84037,Exceeds,Indianapolis,No
+1085,49,Male,Sales,Master,9.8,47346,Meets,Indianapolis,No
+1086,35,Male,Finance,High School,6.6,38587,Meets,Indianapolis,Yes
+1087,21,Male,Operations,Master,12.3,50763,Meets,Fishers,No
+1088,45,Male,It,Master,3.2,97165,Meets,Bloomington,No
+1089,27,Female,Customer Support,High School,18.0,145481,Meets,Indianapolis,No
+1090,29,Male,Finance,Associate,16.7,107615,Meets,Indianapolis,No
+1091,44,Female,It,Associate,6.7,74116,Meets,Carmel,No
+1092,21,Non-Binary,Sales,Master,19.1,123751,Meets,Fishers,No
+1093,64,Female,It,High School,16.6,129353,Low,Indianapolis,No
+1094,28,Male,Customer Support,Associate,13.5,128301,Exceeds,Carmel,No
+1095,44,Male,Finance,High School,2.9,133648,Meets,Fort Wayne,No
+1096,31,Female,Operations,High School,9.8,63556,Exceeds,Indianapolis,No
+1097,37,Female,Sales,High School,10.4,97042,Low,Indianapolis,No
+1098,28,Male,Finance,Doctorate,5.0,56099,Meets,Carmel,No
+1099,55,Female,Customer Support,High School,2.1,147089,Meets,Fishers,No
+1100,55,Male,Sales,Doctorate,15.6,83096,Meets,Indianapolis,No
+1101,53,Male,Hr,Master,2.9,109986,Meets,Fort Wayne,No
+1102,25,Male,It,Associate,12.1,51230,Low,Indianapolis,No
+1103,62,Male,Customer Support,Associate,18.8,67009,Meets,Fort Wayne,No
+1104,59,Non-Binary,Hr,Associate,17.6,108969,Meets,Bloomington,No
+1105,61,Female,Finance,Associate,5.9,71866,Low,Bloomington,No
+1106,48,Male,Operations,Associate,17.1,143400,Meets,Fort Wayne,No
+1107,27,Female,Sales,Associate,0.5,122246,Meets,Fishers,No
+1108,29,Female,It,Associate,0.8,114975,Low,Indianapolis,No
+1109,28,Female,Sales,Master,12.2,79855,Exceeds,Indianapolis,Yes
+1110,32,Male,Finance,High School,7.6,119557,Exceeds,Bloomington,No
+1111,54,Male,Sales,Bachelor,8.0,44416,Meets,Fort Wayne,No
+1112,53,Male,It,Doctorate,11.5,110516,Low,Indianapolis,No
+1113,43,Male,Finance,Bachelor,4.2,93915,Meets,Indianapolis,Yes
+1114,44,Male,Sales,Bachelor,4.6,56058,Meets,Fishers,No
+1115,57,Female,Operations,High School,9.9,114637,Meets,Carmel,Yes
+1116,55,Male,Customer Support,High School,15.2,78718,Meets,Bloomington,No
+1117,64,Male,Finance,High School,12.6,70602,Meets,Bloomington,No
+1118,60,Male,Customer Support,Associate,6.3,112658,Meets,Carmel,No
+1119,42,Male,Finance,Master,8.9,116112,Meets,Indianapolis,Yes
+1120,47,Male,Operations,Associate,3.8,96067,Meets,Fishers,No
+1121,55,Male,Customer Support,Master,2.0,65516,Exceeds,Fishers,No
+1122,21,Male,Hr,Master,15.8,125969,Meets,Bloomington,No
+1123,55,Male,It,Bachelor,5.7,39089,Meets,Fishers,No
+1124,57,Male,Hr,Bachelor,4.0,75346,Exceeds,Carmel,No
+1125,34,Female,Sales,Master,14.0,112663,Meets,Indianapolis,No
+1126,23,Male,Operations,Master,12.6,48487,Meets,Carmel,No
+1127,21,Male,Hr,Associate,12.8,38155,Meets,Fort Wayne,No
+1128,25,Male,Finance,Associate,5.0,105494,Meets,Bloomington,No
+1129,46,Female,Sales,Bachelor,5.0,114229,Exceeds,Fishers,No
+1130,34,Male,Sales,High School,4.8,142648,Meets,Fort Wayne,No
+1131,59,Female,Hr,Master,3.9,76547,Exceeds,Fishers,Yes
+1132,47,Female,Hr,Associate,13.3,66795,Low,Indianapolis,Yes
+1133,29,Male,Operations,Bachelor,17.0,93296,Low,Indianapolis,No
+1134,35,Female,It,Associate,14.6,59447,Meets,Indianapolis,No
+1135,35,Female,Hr,Master,15.9,74598,Meets,Fishers,No
+1136,46,Male,Hr,Master,8.4,79814,Meets,Fort Wayne,No
+1137,62,Male,Customer Support,Doctorate,13.3,128751,Meets,Indianapolis,No
+1138,33,Female,Finance,High School,7.4,113330,Meets,Fort Wayne,No
+1139,52,Female,Customer Support,Doctorate,10.7,136745,Low,Fishers,No
+1140,59,Non-Binary,Customer Support,Bachelor,9.9,125960,Exceeds,Fort Wayne,Yes
+1141,52,Male,Sales,Associate,3.9,101278,Meets,Fishers,No
+1142,24,Female,It,Bachelor,8.0,93077,Meets,Fishers,Yes
+1143,50,Male,Finance,Master,19.3,150782,Meets,Bloomington,Yes
+1144,57,Female,Operations,Doctorate,5.3,140932,Exceeds,Fishers,No
+1145,43,Female,Operations,Doctorate,3.1,109906,Low,Fishers,No
+1146,59,Male,Hr,Doctorate,8.7,47528,Exceeds,Carmel,No
+1147,35,Male,Hr,Bachelor,15.9,131812,Meets,Indianapolis,No
+1148,63,Male,Operations,Master,11.9,88100,Meets,Bloomington,No
+1149,49,Male,Hr,Associate,13.8,147869,Meets,Bloomington,No
+1150,56,Male,It,Associate,4.2,46179,Exceeds,Bloomington,Yes
+1151,33,Female,Customer Support,Bachelor,12.6,86781,Meets,Carmel,No
+1152,52,Female,Hr,Doctorate,6.8,93267,Meets,Fishers,No
+1153,27,Female,Sales,High School,16.8,120379,Meets,Indianapolis,No
+1154,42,Female,Hr,Bachelor,12.8,61952,Meets,Fort Wayne,Yes
+1155,48,Female,Finance,Bachelor,4.4,91798,Exceeds,Fishers,No
+1156,22,Female,It,Master,1.8,136696,Meets,Carmel,No
+1157,62,Female,Finance,Associate,1.3,148434,Exceeds,Fishers,No
+1158,26,Male,Finance,Bachelor,7.7,88939,Low,Fishers,No
+1159,48,Male,Sales,Bachelor,5.7,67516,Low,Carmel,No
+1160,48,Male,It,Doctorate,13.1,94526,Low,Bloomington,No
+1161,64,Male,It,Doctorate,10.2,48449,Meets,Bloomington,No
+1162,64,Male,It,High School,5.7,88290,Meets,Indianapolis,No
+1163,40,Male,It,Master,3.4,124661,Low,Indianapolis,No
+1164,50,Female,It,High School,3.0,110954,Low,Bloomington,No
+1165,31,Female,Sales,Doctorate,17.4,60746,Exceeds,Fort Wayne,No
+1166,48,Male,Hr,Associate,5.2,105990,Exceeds,Fishers,No
+1167,45,Male,Finance,Doctorate,13.2,96810,Exceeds,Fort Wayne,No
+1168,59,Male,It,Master,16.3,121297,Exceeds,Fishers,No
+1169,53,Female,Hr,Doctorate,12.5,53223,Meets,Bloomington,No
+1170,21,Male,Hr,Master,17.3,110237,Low,Indianapolis,No
+1171,47,Female,Finance,Master,8.2,40597,Meets,Indianapolis,No
+1172,33,Male,Sales,Master,19.1,103677,Meets,Fort Wayne,No
+1173,61,Female,Operations,Master,3.1,40659,Meets,Indianapolis,No
+1174,23,Non-Binary,Operations,Master,2.5,124516,Meets,Bloomington,No
+1175,59,Male,Hr,Associate,13.3,112567,Low,Fort Wayne,No
+1176,26,Female,Customer Support,High School,18.9,53037,Meets,Fishers,No
+1177,28,Female,Customer Support,Bachelor,16.3,84738,Meets,Indianapolis,No
+1178,47,Female,Finance,High School,2.0,141965,Meets,Carmel,No
+1179,29,Male,Operations,Master,5.9,109678,Meets,Indianapolis,No
+1180,57,Female,Hr,Associate,18.6,50109,Meets,Fishers,Yes
+1181,53,Female,Sales,Doctorate,5.4,60010,Low,Fort Wayne,No
+1182,62,Female,Operations,Associate,15.7,46787,Low,Fishers,No
+1183,64,Female,Hr,Master,16.6,146400,Exceeds,Carmel,No
+1184,44,Female,Hr,Associate,10.2,46472,Meets,Bloomington,No
+1185,35,Non-Binary,It,Associate,8.0,153111,Low,Indianapolis,No
+1186,52,Female,Sales,Master,9.3,61383,Exceeds,Fort Wayne,No
+1187,52,Female,It,Associate,4.9,99709,Meets,Bloomington,No
+1188,44,Female,Finance,Bachelor,17.8,107785,Meets,Fishers,No
+1189,61,Male,It,Bachelor,9.3,151253,Low,Fort Wayne,No
+1190,32,Female,It,Associate,17.7,72518,Meets,Bloomington,No
+1191,59,Female,Operations,Doctorate,2.6,91909,Meets,Fort Wayne,No
+1192,22,Male,Customer Support,Master,19.8,56351,Meets,Carmel,No
+1193,23,Female,Hr,Bachelor,9.1,107624,Exceeds,Carmel,No
+1194,57,Male,Sales,Doctorate,1.4,91330,Meets,Indianapolis,No
+1195,37,Female,It,Associate,1.2,53282,Meets,Indianapolis,No
+1196,22,Female,Sales,Doctorate,15.1,122866,Low,Carmel,No
+1197,22,Female,Customer Support,High School,13.4,145945,Meets,Fort Wayne,No
+1198,48,Male,Customer Support,Bachelor,16.1,59778,Low,Carmel,No
+1199,43,Female,It,Associate,2.6,62264,Meets,Indianapolis,No
+1200,57,Female,Finance,Master,1.2,97675,Exceeds,Carmel,No
+1201,52,Male,It,Associate,10.4,43075,Meets,Carmel,Yes
+1202,53,Male,Operations,Master,8.1,113948,Meets,Fort Wayne,No
+1203,21,Female,Hr,Associate,9.5,86454,Low,Bloomington,No
+1204,39,Male,Finance,Doctorate,19.8,66365,Meets,Indianapolis,No
+1205,22,Male,It,Doctorate,19.4,110766,Meets,Fort Wayne,No
+1206,64,Female,Sales,Doctorate,18.9,86200,Meets,Carmel,No
+1207,46,Male,Finance,High School,15.8,49002,Low,Carmel,No
+1208,52,Female,Finance,Master,7.4,51947,Meets,Bloomington,No
+1209,26,Male,It,Doctorate,8.5,117222,Exceeds,Indianapolis,No
+1210,52,Female,Finance,High School,11.2,132840,Meets,Indianapolis,No
+1211,24,Male,Sales,Master,16.7,154219,Exceeds,Fishers,No
+1212,31,Female,Customer Support,Associate,1.8,116610,Meets,Indianapolis,No
+1213,37,Male,Finance,High School,8.8,90142,Meets,Bloomington,No
+1214,58,Female,Customer Support,Bachelor,2.1,94307,Meets,Fishers,No
+1215,44,Male,Sales,High School,10.5,42493,Meets,Fishers,No
+1216,25,Female,It,High School,18.0,88085,Meets,Carmel,No
+1217,54,Female,Hr,Master,15.8,72228,Meets,Carmel,No
+1218,26,Non-Binary,Finance,Associate,4.9,117676,Meets,Indianapolis,Yes
+1219,42,Female,Hr,Bachelor,19.5,89875,Meets,Fishers,Yes
+1220,31,Male,Sales,Doctorate,13.5,69655,Low,Carmel,No
+1221,36,Female,Finance,Doctorate,0.7,81472,Exceeds,Bloomington,Yes
+1222,53,Male,Customer Support,High School,5.5,87437,Meets,Carmel,No
+1223,29,Male,Operations,Master,5.6,87416,Meets,Carmel,No
+1224,26,Male,Hr,Master,1.9,97711,Low,Fishers,No
+1225,36,Female,Finance,Doctorate,19.2,44816,Exceeds,Fishers,No
+1226,49,Female,Hr,Bachelor,9.8,115175,Exceeds,Fort Wayne,No
+1227,23,Male,Finance,Associate,18.0,102307,Meets,Bloomington,No
+1228,40,Female,It,Bachelor,6.8,150728,Meets,Fishers,No
+1229,56,Male,Customer Support,Associate,2.9,84733,Meets,Indianapolis,No
+1230,39,Male,Hr,Doctorate,9.7,133028,Low,Bloomington,No
+1231,46,Male,Operations,Associate,2.7,154450,Low,Bloomington,No
+1232,23,Male,Operations,Master,10.0,49240,Meets,Fishers,No
+1233,39,Female,Sales,High School,18.4,136234,Meets,Bloomington,No
+1234,40,Female,Finance,High School,10.7,130493,Meets,Fishers,Yes
+1235,52,Female,Hr,Doctorate,12.5,136344,Exceeds,Carmel,No
+1236,27,Male,Sales,Master,3.6,109363,Meets,Fort Wayne,No
+1237,61,Male,Hr,Bachelor,1.4,70762,Meets,Carmel,No
+1238,53,Male,Finance,Master,2.7,46259,Meets,Fishers,No
+1239,60,Female,Operations,High School,12.2,88139,Exceeds,Fishers,No
+1240,59,Male,It,High School,2.4,52849,Low,Carmel,Yes
+1241,38,Female,Operations,Master,7.8,119768,Exceeds,Indianapolis,No
+1242,60,Non-Binary,Sales,Master,11.2,144108,Exceeds,Indianapolis,Yes
+1243,21,Female,Customer Support,High School,8.1,127709,Low,Indianapolis,No
+1244,31,Female,It,Bachelor,3.7,92869,Meets,Fishers,No
+1245,48,Male,Sales,Doctorate,5.8,101095,Exceeds,Bloomington,No
+1246,45,Female,Finance,Doctorate,18.6,108910,Meets,Fishers,No
+1247,43,Female,It,Master,13.7,124710,Exceeds,Bloomington,Yes
+1248,51,Female,Sales,Doctorate,10.2,61567,Exceeds,Carmel,No
+1249,50,Male,Finance,High School,0.7,73292,Meets,Fort Wayne,Yes
+1250,62,Male,Operations,High School,19.9,112813,Meets,Bloomington,No
+1251,55,Male,Customer Support,Master,13.6,135136,Exceeds,Indianapolis,No
+1252,27,Female,Finance,Master,6.7,89631,Meets,Fishers,No
+1253,36,Female,Hr,Master,17.6,47885,Low,Carmel,No
+1254,46,Female,Finance,Bachelor,5.5,97659,Low,Indianapolis,Yes
+1255,22,Male,Finance,Doctorate,11.1,92306,Meets,Carmel,No
+1256,21,Female,Customer Support,Master,12.9,104314,Exceeds,Fort Wayne,Yes
+1257,32,Male,Hr,Associate,4.8,103087,Exceeds,Fishers,No
+1258,25,Male,Sales,Associate,19.6,67165,Meets,Fishers,No
+1259,57,Male,Sales,High School,15.1,96929,Low,Fort Wayne,No
+1260,52,Female,Finance,Doctorate,11.4,105028,Meets,Fishers,No
+1261,29,Male,Hr,Master,4.0,133998,Exceeds,Bloomington,No
+1262,61,Female,Hr,Associate,1.6,87812,Low,Carmel,No
+1263,55,Female,Customer Support,Doctorate,6.7,88500,Meets,Indianapolis,No
+1264,39,Male,Operations,High School,15.2,117151,Low,Fort Wayne,No
+1265,36,Female,Sales,Bachelor,5.8,96643,Meets,Bloomington,No
+1266,23,Male,Customer Support,Doctorate,11.0,82900,Exceeds,Indianapolis,Yes
+1267,40,Male,It,Doctorate,14.7,80946,Meets,Indianapolis,No
+1268,44,Male,Sales,Bachelor,2.6,45851,Meets,Fort Wayne,No
+1269,53,Male,Customer Support,Doctorate,13.9,54288,Meets,Bloomington,No
+1270,44,Female,Sales,High School,2.3,110692,Exceeds,Indianapolis,Yes
+1271,31,Male,Operations,High School,19.3,105580,Low,Indianapolis,No
+1272,28,Female,It,Bachelor,10.0,45368,Meets,Bloomington,No
+1273,56,Female,Operations,Master,3.4,123436,Meets,Fishers,Yes
+1274,58,Female,It,Associate,7.2,134136,Exceeds,Indianapolis,No
+1275,60,Female,Finance,Master,8.6,84403,Meets,Carmel,No
+1276,40,Female,Customer Support,Doctorate,15.3,129170,Low,Bloomington,No
+1277,55,Male,It,Associate,15.0,47168,Meets,Indianapolis,Yes
+1278,45,Male,Operations,Bachelor,12.4,124497,Meets,Fort Wayne,No
+1279,55,Female,Sales,Bachelor,2.6,87879,Low,Carmel,No
+1280,45,Female,It,Associate,3.5,97871,Exceeds,Indianapolis,No
+1281,49,Male,Customer Support,High School,2.3,147632,Low,Carmel,No
+1282,38,Female,It,Associate,11.8,149623,Meets,Carmel,Yes
+1283,38,Male,Hr,Doctorate,17.6,127388,Meets,Fishers,No
+1284,22,Female,Sales,High School,9.0,136646,Meets,Carmel,No
+1285,55,Male,Customer Support,Bachelor,3.6,70174,Meets,Fishers,Yes
+1286,36,Male,Customer Support,Associate,11.4,137751,Exceeds,Bloomington,No
+1287,61,Male,Finance,Master,16.3,130491,Meets,Fishers,No
+1288,56,Female,Operations,Master,15.0,44581,Meets,Fort Wayne,No
+1289,53,Female,Finance,Doctorate,17.7,148155,Meets,Indianapolis,Yes
+1290,24,Male,Customer Support,Master,5.9,109853,Meets,Bloomington,No
+1291,53,Female,Sales,Associate,4.3,102046,Low,Bloomington,No
+1292,34,Male,It,Associate,17.7,87678,Meets,Fort Wayne,No
+1293,41,Female,It,Master,13.3,146392,Exceeds,Fishers,Yes
+1294,40,Male,Sales,Associate,6.6,149250,Low,Indianapolis,No
+1295,28,Male,Customer Support,Doctorate,15.0,64649,Meets,Fishers,No
+1296,27,Female,It,High School,16.4,126668,Exceeds,Carmel,No
+1297,23,Non-Binary,It,Doctorate,12.5,120325,Low,Fishers,No
+1298,37,Female,It,Doctorate,13.9,52567,Meets,Bloomington,No
+1299,53,Female,Operations,Associate,7.8,118404,Meets,Indianapolis,No
+1300,32,Female,Operations,High School,11.0,127906,Meets,Fishers,No
+1301,42,Male,Hr,Associate,10.7,146069,Low,Indianapolis,No
+1302,42,Non-Binary,Finance,Bachelor,17.0,134019,Low,Indianapolis,No
+1303,50,Female,Sales,Associate,16.9,99944,Meets,Carmel,No
+1304,58,Female,Sales,Associate,16.7,116002,Exceeds,Carmel,No
+1305,58,Female,Sales,Associate,0.7,66803,Meets,Bloomington,No
+1306,28,Female,Hr,High School,15.1,56230,Meets,Fort Wayne,No
+1307,47,Female,Operations,Associate,15.3,55862,Low,Indianapolis,No
+1308,47,Male,Customer Support,High School,13.7,81355,Meets,Fort Wayne,No
+1309,54,Female,Customer Support,Master,15.2,69259,Meets,Bloomington,No
+1310,41,Male,Hr,Bachelor,16.9,137075,Exceeds,Indianapolis,No
+1311,50,Non-Binary,Customer Support,High School,9.7,125445,Exceeds,Indianapolis,No
+1312,53,Female,Sales,Master,10.3,68795,Meets,Fort Wayne,No
+1313,48,Male,Finance,High School,2.9,152604,Exceeds,Fishers,No
+1314,53,Female,It,High School,8.0,46770,Low,Carmel,No
+1315,25,Female,Operations,Bachelor,13.0,49093,Meets,Fishers,No
+1316,39,Female,Operations,Doctorate,15.7,84571,Meets,Fort Wayne,No
+1317,24,Female,Hr,Doctorate,4.7,38193,Exceeds,Carmel,No
+1318,55,Male,Operations,High School,3.2,138311,Meets,Fishers,No
+1319,37,Female,Sales,Associate,13.4,55569,Meets,Carmel,Yes
+1320,64,Female,Customer Support,Master,0.5,49190,Exceeds,Indianapolis,No
+1321,48,Male,Sales,Associate,4.0,100824,Low,Fishers,No
+1322,50,Female,Hr,Associate,1.1,80752,Meets,Carmel,No
+1323,49,Male,Sales,High School,3.8,70327,Meets,Carmel,No
+1324,26,Male,Customer Support,High School,4.0,80070,Meets,Carmel,No
+1325,55,Female,Finance,High School,8.1,123925,Meets,Fishers,No
+1326,61,Female,Hr,High School,8.3,78197,Meets,Bloomington,No
+1327,57,Male,Finance,Doctorate,17.5,40261,Low,Fishers,No
+1328,44,Female,It,High School,10.4,131905,Exceeds,Fort Wayne,No
+1329,49,Male,Finance,Doctorate,14.6,64512,Meets,Fishers,No
+1330,51,Male,It,Doctorate,2.5,44716,Low,Carmel,No
+1331,55,Male,It,High School,4.9,124795,Meets,Indianapolis,Yes
+1332,53,Male,Finance,Bachelor,14.2,66933,Meets,Fishers,No
+1333,41,Male,Hr,Master,1.5,145225,Low,Fishers,No
+1334,52,Female,Customer Support,Associate,10.0,42378,Meets,Carmel,No
+1335,43,Female,Sales,Doctorate,12.2,78583,Meets,Indianapolis,No
+1336,53,Male,Sales,Master,12.2,150082,Meets,Indianapolis,No
+1337,23,Female,Customer Support,Bachelor,0.9,123371,Meets,Fort Wayne,No
+1338,38,Female,It,Associate,6.8,67033,Meets,Fishers,No
+1339,45,Male,It,Associate,12.9,62000,Meets,Indianapolis,No
+1340,62,Female,Hr,Doctorate,3.4,149032,Meets,Indianapolis,No
+1341,51,Non-Binary,Operations,High School,14.1,113868,Meets,Bloomington,No
+1342,23,Male,Finance,Bachelor,15.0,80604,Meets,Bloomington,Yes
+1343,60,Male,It,Doctorate,19.6,106336,Meets,Indianapolis,No
+1344,44,Female,Sales,Bachelor,4.6,133074,Exceeds,Fort Wayne,No
+1345,52,Female,Hr,High School,16.6,133655,Meets,Indianapolis,No
+1346,42,Male,Finance,High School,10.6,111869,Meets,Carmel,Yes
+1347,43,Female,Hr,Doctorate,7.8,43410,Exceeds,Fishers,No
+1348,22,Female,Finance,High School,2.9,121375,Meets,Fort Wayne,No
+1349,47,Female,Finance,Master,14.8,94044,Meets,Carmel,No
+1350,62,Female,Customer Support,Associate,5.1,101315,Meets,Fort Wayne,No
+1351,22,Female,It,Doctorate,7.7,134055,Low,Carmel,No
+1352,46,Male,Hr,Bachelor,1.7,109344,Exceeds,Fishers,No
+1353,37,Male,Hr,Master,16.1,44796,Meets,Fishers,No
+1354,60,Female,Customer Support,Doctorate,15.4,124716,Exceeds,Bloomington,No
+1355,53,Female,Sales,High School,14.8,92245,Meets,Carmel,No
+1356,29,Male,Sales,High School,6.3,81056,Meets,Bloomington,No
+1357,63,Female,It,High School,3.9,55709,Low,Carmel,Yes
+1358,59,Female,It,High School,12.9,96557,Meets,Bloomington,No
+1359,49,Male,Operations,Bachelor,10.2,55543,Meets,Fishers,No
+1360,62,Female,Customer Support,Master,4.0,75418,Exceeds,Fort Wayne,No
+1361,46,Female,Sales,Associate,13.9,132611,Meets,Bloomington,No
+1362,55,Female,Finance,Bachelor,19.8,141291,Meets,Carmel,No
+1363,45,Female,Hr,Bachelor,15.1,151504,Meets,Carmel,No
+1364,44,Male,It,Associate,14.9,141001,Meets,Fishers,No
+1365,33,Female,Hr,Associate,19.0,134038,Meets,Carmel,Yes
+1366,27,Male,Hr,High School,4.5,54724,Meets,Indianapolis,No
+1367,56,Male,Operations,Bachelor,11.5,41828,Meets,Fort Wayne,No
+1368,40,Female,Sales,Doctorate,19.6,154656,Meets,Bloomington,Yes
+1369,21,Male,It,Associate,3.7,55087,Meets,Fort Wayne,No
+1370,28,Male,Hr,Associate,14.2,50605,Exceeds,Fishers,No
+1371,36,Female,It,Master,11.9,69337,Exceeds,Bloomington,No
+1372,34,Male,Finance,Doctorate,11.9,43482,Meets,Bloomington,No
+1373,32,Male,Operations,Doctorate,14.1,103333,Meets,Indianapolis,No
+1374,43,Female,Finance,Associate,18.6,130541,Exceeds,Fishers,No
+1375,35,Female,It,High School,15.8,126296,Meets,Carmel,No
+1376,48,Male,It,Master,1.6,88952,Exceeds,Indianapolis,No
+1377,54,Female,Sales,Doctorate,17.1,43463,Low,Indianapolis,No
+1378,22,Female,Hr,Associate,4.9,150164,Meets,Fort Wayne,No
+1379,52,Female,Hr,Doctorate,7.8,108448,Exceeds,Fort Wayne,No
+1380,43,Female,Finance,Master,9.5,42648,Exceeds,Fort Wayne,No
+1381,42,Non-Binary,Operations,Master,9.9,71623,Meets,Indianapolis,No
+1382,45,Female,Customer Support,Bachelor,9.0,97156,Meets,Carmel,No
+1383,42,Female,Hr,Associate,18.8,73634,Meets,Bloomington,No
+1384,42,Female,Sales,Master,14.3,82602,Low,Fort Wayne,No
+1385,62,Male,Finance,Bachelor,12.8,152598,Meets,Carmel,Yes
+1386,26,Male,Finance,Bachelor,1.5,87334,Meets,Fishers,No
+1387,35,Female,Customer Support,Doctorate,18.1,106648,Exceeds,Fort Wayne,No
+1388,63,Female,Sales,Doctorate,18.2,60054,Meets,Bloomington,No
+1389,57,Female,Operations,Bachelor,15.7,108028,Meets,Fishers,No
+1390,53,Male,Sales,Doctorate,0.6,60207,Low,Fishers,No
+1391,28,Female,Operations,Master,1.6,118650,Meets,Bloomington,No
+1392,64,Male,Sales,High School,4.9,137821,Meets,Fort Wayne,No
+1393,64,Male,Sales,Master,3.1,119554,Meets,Indianapolis,Yes
+1394,25,Female,It,Bachelor,8.3,59386,Meets,Bloomington,Yes
+1395,59,Female,Finance,Bachelor,18.5,121276,Exceeds,Bloomington,No
+1396,24,Female,Sales,Master,9.7,97518,Exceeds,Bloomington,No
+1397,26,Female,Customer Support,Doctorate,0.8,90781,Meets,Fishers,No
+1398,52,Male,Sales,Doctorate,6.0,90780,Exceeds,Carmel,No
+1399,50,Female,Hr,Bachelor,1.4,99440,Meets,Indianapolis,Yes
+1400,55,Male,Finance,Associate,1.2,82199,Meets,Fort Wayne,No
+1401,60,Female,Hr,Doctorate,5.9,99035,Low,Fort Wayne,No
+1402,36,Female,Finance,Master,5.9,46210,Meets,Carmel,Yes
+1403,33,Female,Hr,Doctorate,15.8,82363,Meets,Bloomington,No
+1404,62,Female,Sales,Master,19.5,149175,Exceeds,Indianapolis,Yes
+1405,50,Female,Sales,Bachelor,7.7,116279,Meets,Fort Wayne,No
+1406,39,Female,It,Doctorate,8.9,98348,Exceeds,Fort Wayne,No
+1407,37,Male,Customer Support,Master,17.0,93284,Meets,Bloomington,No
+1408,39,Male,Hr,Bachelor,5.7,145628,Low,Carmel,No
+1409,48,Male,Operations,Associate,3.5,147835,Exceeds,Indianapolis,No
+1410,46,Male,It,Master,17.1,110124,Meets,Carmel,No
+1411,57,Female,Hr,Associate,1.4,106847,Meets,Carmel,No
+1412,46,Female,Hr,Associate,12.6,60432,Meets,Indianapolis,Yes
+1413,43,Male,It,High School,11.5,102089,Low,Indianapolis,No
+1414,29,Male,Sales,Doctorate,7.2,93398,Meets,Fort Wayne,No
+1415,32,Male,Hr,Master,6.6,137291,Meets,Fort Wayne,No
+1416,21,Female,Sales,Associate,15.6,41321,Meets,Indianapolis,No
+1417,21,Female,It,High School,2.2,119348,Exceeds,Fishers,No
+1418,54,Male,Sales,Bachelor,5.1,75383,Meets,Fort Wayne,No
+1419,52,Female,Finance,Master,14.8,151816,Meets,Fishers,Yes
+1420,45,Female,Operations,Associate,11.2,116682,Meets,Indianapolis,Yes
+1421,60,Male,Hr,Doctorate,3.0,117190,Exceeds,Fort Wayne,No
+1422,21,Female,Customer Support,High School,17.7,90893,Low,Carmel,No
+1423,36,Female,Operations,Associate,8.2,73820,Meets,Indianapolis,No
+1424,59,Male,Sales,Doctorate,16.6,104262,Low,Bloomington,No
+1425,25,Male,Hr,Associate,15.9,41760,Low,Fishers,No
+1426,42,Male,Sales,Master,12.7,60190,Exceeds,Indianapolis,Yes
+1427,49,Male,Finance,Master,10.1,105411,Meets,Indianapolis,No
+1428,23,Female,It,Master,19.6,61377,Meets,Fort Wayne,No
+1429,32,Female,Hr,High School,3.3,84737,Meets,Fort Wayne,No
+1430,46,Male,Finance,Master,14.6,107569,Meets,Fort Wayne,No
+1431,36,Male,Finance,Doctorate,4.2,76211,Exceeds,Bloomington,No
+1432,57,Male,Hr,Associate,7.1,120909,Exceeds,Fort Wayne,No
+1433,42,Male,Sales,Bachelor,6.5,41744,Meets,Indianapolis,No
+1434,49,Female,Customer Support,Doctorate,19.0,62995,Exceeds,Fort Wayne,No
+1435,34,Male,Finance,Doctorate,19.4,54977,Meets,Carmel,No
+1436,48,Male,Operations,Master,4.1,135938,Meets,Fort Wayne,No
+1437,25,Male,Finance,High School,0.9,72542,Meets,Bloomington,No
+1438,50,Female,Customer Support,Associate,14.5,48651,Meets,Carmel,No
+1439,25,Male,Sales,High School,8.7,137239,Meets,Indianapolis,No
+1440,32,Female,Sales,Associate,2.2,116931,Exceeds,Indianapolis,No
+1441,36,Male,Operations,Associate,13.8,133344,Meets,Fishers,Yes
+1442,46,Female,Finance,High School,11.1,140112,Exceeds,Carmel,No
+1443,46,Female,Sales,Doctorate,19.6,54715,Meets,Fishers,No
+1444,41,Male,Customer Support,Associate,4.9,82409,Exceeds,Carmel,No
+1445,59,Male,Hr,High School,8.4,62306,Meets,Carmel,No
+1446,56,Female,It,Associate,11.1,57086,Meets,Bloomington,No
+1447,53,Female,It,Bachelor,15.9,52376,Meets,Fishers,No
+1448,50,Male,It,Doctorate,11.2,99350,Exceeds,Bloomington,Yes
+1449,57,Female,Finance,Master,12.5,109425,Low,Carmel,No
+1450,43,Female,Operations,Associate,4.9,141358,Exceeds,Indianapolis,No
+1451,30,Female,Sales,Bachelor,17.0,74636,Low,Carmel,No
+1452,25,Male,Hr,Master,8.9,124120,Meets,Bloomington,No
+1453,56,Female,Customer Support,Master,3.2,152889,Exceeds,Fishers,No
+1454,54,Male,Hr,Associate,13.5,89649,Meets,Fishers,No
+1455,51,Female,Customer Support,High School,4.7,72610,Meets,Bloomington,No
+1456,30,Male,Finance,Associate,2.4,48058,Meets,Fishers,No
+1457,39,Male,It,Bachelor,17.3,112637,Exceeds,Fort Wayne,Yes
+1458,52,Male,Finance,Master,9.5,116033,Low,Indianapolis,Yes
+1459,21,Female,Operations,Associate,15.1,108194,Exceeds,Indianapolis,No
+1460,25,Male,Operations,High School,6.2,114917,Low,Indianapolis,No
+1461,24,Male,Customer Support,Associate,15.8,102200,Exceeds,Fishers,No
+1462,36,Male,Sales,Doctorate,2.7,143848,Exceeds,Fishers,No
+1463,44,Female,Sales,High School,7.4,144022,Meets,Carmel,No
+1464,36,Non-Binary,Customer Support,Bachelor,19.6,84619,Meets,Carmel,No
+1465,22,Male,Operations,Master,16.0,55154,Meets,Indianapolis,No
+1466,48,Female,Operations,Associate,10.2,57539,Meets,Fort Wayne,No
+1467,52,Female,Operations,High School,7.1,98058,Low,Carmel,No
+1468,47,Female,Finance,Doctorate,17.5,100068,Low,Carmel,No
+1469,40,Male,Operations,High School,11.1,115313,Low,Fishers,No
+1470,44,Male,Hr,Doctorate,15.3,137932,Meets,Fort Wayne,No
+1471,32,Male,It,Bachelor,15.2,68373,Meets,Indianapolis,No
+1472,55,Male,Operations,Master,0.8,71154,Meets,Carmel,No
+1473,53,Male,Customer Support,Bachelor,3.0,44031,Exceeds,Fort Wayne,No
+1474,53,Female,It,Associate,13.4,131533,Meets,Fort Wayne,Yes
+1475,63,Male,Finance,High School,3.7,109975,Meets,Indianapolis,Yes
+1476,57,Male,Customer Support,Doctorate,5.5,60785,Meets,Fort Wayne,No
+1477,32,Female,It,Doctorate,19.0,116928,Exceeds,Fort Wayne,No
+1478,23,Male,Customer Support,High School,11.4,66669,Exceeds,Fort Wayne,No
+1479,21,Female,Finance,High School,15.1,132475,Exceeds,Carmel,No
+1480,53,Female,Hr,Associate,11.4,40282,Exceeds,Indianapolis,No
+1481,60,Male,Finance,Bachelor,11.3,72624,Low,Fort Wayne,No
+1482,30,Female,Finance,Doctorate,2.3,86438,Exceeds,Fort Wayne,No
+1483,63,Female,Customer Support,Associate,7.2,127900,Meets,Carmel,No
+1484,64,Female,Sales,Bachelor,6.0,105534,Meets,Indianapolis,No
+1485,49,Female,Operations,Associate,8.1,69705,Exceeds,Fishers,No
+1486,33,Female,Operations,Doctorate,16.1,76244,Low,Carmel,No
+1487,32,Female,Hr,High School,7.8,112964,Meets,Indianapolis,No
+1488,51,Male,Hr,High School,9.3,75437,Meets,Fort Wayne,No
+1489,22,Male,Operations,Bachelor,8.2,115872,Meets,Indianapolis,No
+1490,55,Male,Sales,Master,2.3,112878,Meets,Indianapolis,No
+1491,43,Female,Operations,Bachelor,9.1,143368,Meets,Indianapolis,Yes
+1492,37,Male,Sales,Master,4.3,110982,Meets,Fishers,No
+1493,46,Female,Hr,Associate,4.1,88583,Meets,Indianapolis,No
+1494,28,Female,It,Associate,2.3,76392,Exceeds,Fishers,No
+1495,49,Female,Customer Support,Doctorate,7.5,45461,Low,Fort Wayne,No
+1496,46,Non-Binary,Hr,Master,15.3,138123,Meets,Fishers,No
+1497,30,Female,Hr,Doctorate,5.9,48516,Exceeds,Fort Wayne,No
+1498,46,Female,Finance,High School,6.6,117285,Exceeds,Fort Wayne,No
+1499,54,Male,Finance,Master,13.0,55514,Meets,Fishers,No
+1500,61,Female,Finance,Bachelor,4.3,138962,Meets,Carmel,Yes
